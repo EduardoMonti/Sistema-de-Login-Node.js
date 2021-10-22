@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body style="text-align: center;">
+    <h1>Login</h1>
+    <hr>
+    <div class="card" style="width: 400px; heigth: 700px; margin: auto; margin-top: 40px;">
+        <div class="card-body">
+            <form action="/usuarios/login" method="POST">
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" class="form-control" required>
+                <label for="senha">Senha: </label>
+                <input type="password" name="senha" class="form-control" required>
+                <button type="submit" class="btn btn-success mt-4" style="background-color:rgb(58, 58, 177); border-color:rgb(58, 58, 177)">Login</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
